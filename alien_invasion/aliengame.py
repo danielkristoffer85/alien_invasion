@@ -20,10 +20,10 @@ def run_game():
     pygame.display.set_caption("Alien Invasion")
     
     # Sound effects
-    explosion = pygame.mixer.Sound('sounds/explosion.wav')
-    laser = pygame.mixer.Sound('sounds/laser.wav')
+    explosion = pygame.mixer.Sound('explosion.wav')
+    laser = pygame.mixer.Sound('laser.wav')
     # Turn on cool music
-    pygame.mixer.music.load('sounds/music.mp3')
+    pygame.mixer.music.load('music.mp3')
     pygame.mixer.music.play(-1)
     
     # Create an instance to store game statistics and create a scoreboard.

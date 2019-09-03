@@ -8,7 +8,7 @@ from alien import Alien
 
 def check_keydown_events(event, ai_settings, screen, ship, bullets):
     """Respond to keypresses."""
-    laser = pygame.mixer.Sound('sounds/laser.wav')
+    laser = pygame.mixer.Sound('laser.wav')
     if event.key == pygame.K_RIGHT:
         ship.moving_right = True
     elif event.key == pygame.K_LEFT:
